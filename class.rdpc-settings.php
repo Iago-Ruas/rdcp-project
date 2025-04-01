@@ -33,7 +33,7 @@ if (!class_exists('RDPC_Settings')) {
             $this->first_section_field_settings = [
                 'id' => 'first_section_item_1',
                 'title' => '1-1',
-                'callback_function' => [$this, 'mv_slider_shortcode_callback' ],
+                'callback_function' => [$this, 'first_page_main_section_callback' ],
                 'showing_page' => $this->first_section_settings['showing_page'],
                 'showing_section' => $this->first_section_settings['id'],
             ];
@@ -48,7 +48,7 @@ if (!class_exists('RDPC_Settings')) {
             $this->second_section_field_settings = [
                 'id' => 'second_section_item_1',
                 'title' => '2-1',
-                'callback_function' => [$this, 'mv_slider_shortcode_callback' ],
+                'callback_function' => [$this, 'first_page_second_section_callback' ],
                 'showing_page' => $this->second_section_settings['showing_page'],
                 'showing_section' => $this->second_section_settings['id'],
             ];
@@ -61,14 +61,42 @@ if (!class_exists('RDPC_Settings')) {
                 'showing_page' => 'main_settings3',
             ];
             $this->third_section_field_settings = [
-                'id' => 'mv_slider_shortcode',
+                'id' => 'third_section_item_1',
                 'title' => '3-1',
-                'callback_function' => [$this, 'mv_slider_shortcode_callback' ],
+                'callback_function' => [$this, 'first_page_third_section_callback' ],
                 'showing_page' => $this->third_section_settings['showing_page'],
                 'showing_section' => $this->third_section_settings['id'],
             ];
 
         }
 
+
+        public function first_page_main_section_callback()
+        {
+            ?>
+            <span>
+	            This is the first page section 1
+            </span>
+            <hr/>
+           <?php
+        }
+        public function first_page_second_section_callback()
+        {
+            ?>
+            <span>
+	            This is the first page section 2
+            </span>
+            <hr/>
+           <?php
+        }
+        public function first_page_third_section_callback()
+        {
+            ?>
+            <span>
+	            This is the first page section 3
+            </span>
+            <hr/>
+           <?php
+        }
     }
 }
