@@ -51,6 +51,8 @@ if (!class_exists('RDPC')) {
             define('RDPC_Version', '1.0.0');
             define('RDPC_LINK_TEXT_METADATA', 'rdpc_link_text');
             define('RDPC_LINK_URL_METADATA', 'rdpc_link_url');
+            define('RDPC_OPTIONS_SETTINGS', 'rdpc_options_settings');
+            define('RDPC_GROUP_SETTINGS_ID', 'rdpc_group_settings_id');
         }
 
         public static function activate()
