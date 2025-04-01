@@ -1,0 +1,126 @@
+AUTOR{
+
+    Painel de Usuário{
+        Primeiro nome
+        
+        Sobrenome Completo sem Abreviações
+        
+        Abreviação Vancouver
+        
+        URL ORCID
+        
+        URL Lattes
+        
+        Celular
+        
+        Check de nacionalidade do autor
+        
+        Expressão de desejo para ser revisor
+        
+        Afiliação Principal {
+        
+            Instituição com Sugetão
+        
+            Departamento
+        
+            Cidade
+        
+            Seletor de UF
+        
+            Seletor de Pais
+        }
+        
+        Possibilidade de alteração de senha
+        
+        Possibilidade de alteração de email
+    }
+
+    Submissão de Artigos {
+        
+        Termos de Serviço para submissão de artigos{
+            seletor de aceite dos termos e condição da plataforma e tratamentos de dados
+        }
+        
+        Seleção do idioma do artigo.
+        
+        Títulos em Portugês, Inglês e Espanhol
+
+        Possível a atualização de Dados do autor{
+            
+            Primeiro nome
+            
+            Sobrenome Completo sem Abreviações
+            
+            Abreviação Vancouver
+            
+            URL ORCID
+            
+            URL Lattes
+            
+            Celular
+            
+            Check de nacionalidade do autor
+            
+            Expressão de desejo para ser revisor
+            
+            Afiliação Principal {
+            
+                Instituição [Sugetão]
+            
+                Departamento
+            
+                Cidade
+            
+                Seletor de UF
+            
+                Seletor de Pais
+            }
+        }
+
+        Seletor de atuação na autoria do artigo (taxonomia CRediT)
+
+        Seletor da existência ou não de conflitos de interesse
+
+        Seletor da existencia ou não de dados pessoais de terceiros, 
+            processos sujeitos à aprovação por comitê de ética 
+            ou obteve financiamento externo.{
+                Mais informações (nome do comitê que analisou e aprovou 
+                a proposta de estudo, número do registro da aprovação, 
+                financiador, etc..)
+            }
+
+
+        Seletor se o atigo é uma monografia ou tese acadêmica ou deriva de artigo 
+            previamente publicado
+    
+        Resumo estruturado
+
+        Resumo em 2 frases
+
+        Palavras Chave
+
+        Área do artigo
+
+        Bibliografia/References/Referencias bibliográficas
+
+        Tipo de artigo
+
+        Possibilidade de inserção de Mídia
+
+        Artigo na íntegra em português, ingles e espanhol
+
+        Artquivo da imagem de destaque 
+    }
+
+    Listar artigos submetidos{
+        Pesquisar por Palavra-chave 
+        Pesquisar por Categoria 
+
+        Opções do artigo{
+            ver artigo
+            Editar artigo [Disponível pré aprovação/envio de aceite]
+        }
+    }
+
+    Sair da plataforma
+}

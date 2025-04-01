@@ -1,0 +1,77 @@
+Editor {
+    Painel de Usuário{
+        Primeiro nome
+        
+        Sobrenome Completo sem Abreviações
+        
+        Abreviação Vancouver
+        
+        URL ORCID
+        
+        URL Lattes
+        
+        Celular
+        
+        Check de nacionalidade do autor
+        
+        Expressão de desejo para ser revisor
+        
+        Afiliação Principal {
+        
+            Instituição com Sugetão
+        
+            Departamento
+        
+            Cidade
+        
+            Seletor de UF
+        
+            Seletor de Pais
+        }
+        
+        Possibilidade de alteração de senha
+        
+        Possibilidade de alteração de email
+    }
+
+    Artigos{
+        Acesso a todos
+        
+        pesquisa por palavra chave ou categoria
+        
+        pesquisa por status{
+            pendente
+            publicado
+            aprovado
+            rejeitado
+            nova submissao
+            aguardando aceite
+            aguardando parecer
+        }
+
+        Ao acessar algum artigo{
+            ver detalhes{
+                email cadastrado do autor
+                data de submissao do artigo
+                Informações do autor
+                Informações do artigo                
+            }
+
+            Atribuir revisor{
+                Filtrar por área de atuação
+                pesquisa por revisor especifico 
+            }
+
+            Comunicação com Autor{
+               Selecionar parecer final{
+                aprovado
+                Parecer Enviado
+                Aguardando Autor
+                Rejeitado
+               }
+               
+               Adição de comentários do Editor.
+            }
+        }
+    }
+}

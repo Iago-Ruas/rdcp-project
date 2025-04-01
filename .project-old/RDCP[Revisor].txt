@@ -1,0 +1,109 @@
+Revisor{
+    Painel de Usuário{
+        Primeiro nome
+        
+        Sobrenome Completo sem Abreviações
+        
+        Abreviação Vancouver
+        
+        URL ORCID
+        
+        URL Lattes
+        
+        Celular
+        
+        Check de nacionalidade do autor
+        
+        Expressão de desejo para ser revisor
+        
+        Afiliação Principal {
+        
+            Instituição com Sugetão
+        
+            Departamento
+        
+            Cidade
+        
+            Seletor de UF
+        
+            Seletor de Pais
+        }
+        
+        Possibilidade de alteração de senha
+        
+        Possibilidade de alteração de email
+    }
+
+    Artigos Atribuidos{
+        Pesquisar Palavra-chave
+        Pesquisar por Categoria
+        Pesquisar por status{
+            Todos
+            Nova submissão
+            aprovados
+            rejeitados
+        }
+        Ver artigos{
+            status do artigo
+            data de envio
+            data limite do parecer
+            aceitar convite à revisão
+            declinar convite à revisão
+            Detalhes completos do artigo
+
+            Caso aceite{
+                Adicionar parecer{
+                    existencia [ou não] de conflito de interesse
+                    Cometarios sobre{
+                        titulo em PT, EN e ES  
+                        resumo
+                        resumo em 2 frases em pt, en, es
+                        palavra chave em pt, en, es
+                        artigo na integra em pt, en, es
+                    } 
+                    Perguntas [sim/não/não se aplica]{
+                        originalidade
+                        alinhamento com tema
+                        contribuição para pesquisa e desenvolvimento da especialidade
+                        representatividade e claridade do titulo sobre o conteudo
+                        claridade do obvetivo
+                        cumprimento do objetivo, caso não, se existe coerencia na justificativa
+                        claridade do resumo sobre objetivo, método e resultado
+                        organização e se fora bem escrito
+                        coerencia nas citações a terceiros
+                        Clareza na metodologia
+                        adequação da metodologia
+                        execução da metodologia
+                        adequação do levantamento da literatura existente sobre o tema
+                        resultado pautado pela contextualização da literatura usada
+                        adequação e apresentação de imagens e gráficos
+                        existencioa de inconsistencias no artigo[se sim, quais] 
+                        se as informações levantadas apoiam os resultados
+                    }
+                    Para artigos quantitativos [sim/não/não se aplica]{
+                        Para estudos com dados restritos ou avaliação de indivíduos, 
+                            foi indicada a aprovação por comitê de ética?
+                        A amostra é bem definida, significativa e representativa da 
+                            população investigada?
+                        Os dados coletados são suficientes para a avaliação e conclusão propostas?
+                        Percebe-se alguma inconsistência nos dados coletados?
+                        Fatores como tendências e viés contextuais dos resultados, 
+                            se existentes, são abordados?
+                        Os métodos para coleta e análise dos dados ficam claros?
+                    }
+                    Parecer final{
+                        aprovado
+                        rejeitado
+                        aprovado com pequenas modificações
+                        modificações requeridas
+                    }
+                    Justificativa do parecer final
+                    Comentários ao autor
+                }
+                Possibilidade de salvar e continuar posteriormente
+                envio
+                fechar interação            
+            }
+        }
+    }
+}

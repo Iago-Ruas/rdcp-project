@@ -1,0 +1,53 @@
+Definir nome pro produto [RDPC]
+
+Separar funções de usuários [v - autor, editor e revisor] 
+{
+    Definir autoridades de cada função
+}
+
+Definir linguagem para API [v - Python]
+
+Seprar fluxo de usuário de funções da API (Olhar o Figma)
+
+Verificar criação de plugin pra WP
+{ 
+    Ver sobre habilitação do front e back com PHP no WP
+    Verificar compatibilidade das linguagens de front-end
+    Verificar uso de variáveis de ambiente no WP
+    Estruturação do DB [v]
+    { 
+        Consumo do DB-WP pela API
+        Verificar autorição de criação de tabelas
+        Verificar se é relacional ou não, ou se existe possibilidade de escolha
+        Verificar reutilização de dados ja presentes no WP 
+        Verificar uso do Bucket do WP e como acessar
+    }
+    
+    Separar funções de usuários [v - autor, editor e revisor] 
+    {
+        Definir autoridades de cada função
+    }
+}
+
+Listar documentos necessários para cadastro de cada função 
+{
+    Pesquisar sobre documentações exigidas - Revisar DB
+    Verifiricar diferenciações possíveis 
+    verificar se existe mais de um documento com mesmo valor legal ou comparável
+}
+
+Listar areas de atuação 
+{
+    Editor registra areas de atuação possíveis e isso torna-se um campo registro no perfil do usuário e um campo de seleção na área de submissão do artigo 
+    {
+        verificar compatibilidade de existencia prévia
+    }
+}
+
+Pontos Importantes 
+{
+    Contagem de artigos negados de autores
+    Contagem de artigos negados por revisores
+    Relação de aprovação entre autores e revisores
+    Visualizualição da contagem de artigos em cada revisor pelo editor
+}
